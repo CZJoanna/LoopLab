@@ -1,0 +1,57 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+/* 登入區給背景圖 */
+.dark-overlay {
+  background-image: url(./img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* 因為navbar 固定，所以要將home部分往下推移 */
+.home-inner {
+  padding-top: 10rem;
+  height: 95vh;
+}
+
+/* 登入卡片給一點點透明 */
+.card-form {
+  opacity: 0.95;
+}
+
+/* 勾勾 */
+.check-icon {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* 藍勾勾 */
+.check-icon--blue {
+  color: #008ed6;
+}
+/* 黑勾勾 */
+.check-icon--black {
+  color: black;
+}
+
+/* 白勾勾 */
+.check-icon--white {
+  color: white;
+}
+
+/* 勾勾給背景  */
+.check-icon--bg-light {
+  background-color: white;
+}
+
+.rounded-circle {
+  overflow: hidden;
+}
